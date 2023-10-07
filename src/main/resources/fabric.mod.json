@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "redstone_links",
+  "version": "${version}",
+
+  "name": "Redstone Links",
+  "description": "Interdimensional redstone links.",
+  "authors": [
+    "Merkli"
+  ],
+  "contact": {
+  },
+
+  "license": "MIT License",
+  "icon": "assets/redstone_links/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.merkli.redstone_links.RedstoneLinksMod"
+    ]
+  },
+  "mixins": [
+    "redstone_links.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
